@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ad1be2-725c-451f-a0e6-fa2b17cec142" name="Default Changelist" comment="adding files">
-      <change afterPath="$PROJECT_DIR$/spec/controllers/drink_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/drink_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recipe-list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipe-list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/start.rake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/drinks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/drinks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/ingredients.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/ingredients.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/drinks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/drinks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/ingredient_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/ingredient_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,10 +26,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="2" />
+          <entry key="dev" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
+          <entry key="rake" value="1" />
           <entry key="rb" value="27" />
         </counts>
       </usages-collector>
@@ -47,8 +40,8 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Ruby" value="29" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Ruby" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,14 +51,14 @@
           <entry key="json" value="2" />
           <entry key="md" value="18" />
           <entry key="rb" value="348" />
-          <entry key="txt" value="14" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="18" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="107" />
           <entry key="Ruby" value="357" />
         </counts>
       </usages-collector>
@@ -77,12 +70,30 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile.dev">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/start.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ingredients_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -119,6 +130,8 @@
         <option value="$PROJECT_DIR$/test/models/ingredient_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" />
+        <option value="$PROJECT_DIR$/Procfile.dev" />
+        <option value="$PROJECT_DIR$/lib/tasks/start.rake" />
       </list>
     </option>
   </component>
@@ -156,41 +169,13 @@
             <path>
               <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547285780631</updated>
-      <workItem from="1547285784575" duration="7233000" />
+      <workItem from="1547285784575" duration="7824000" />
     </task>
     <task id="LOCAL-00001" summary="adding files">
       <created>1547290104834</created>
@@ -243,11 +228,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547290104835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="populating the database">
+      <created>1547293212553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547293212553</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding a route for the api drinks page">
+      <created>1547293244858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547293244858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cutting back things I don't need">
+      <created>1547293321004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547293321004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7233000" />
+    <option name="totallyTimeSpent" value="7824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -259,6 +265,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3296875" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2546875" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,7 +289,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding files" />
+    <MESSAGE value="populating the database" />
+    <MESSAGE value="adding a route for the api drinks page" />
+    <MESSAGE value="cutting back things I don't need" />
+    <option name="LAST_COMMIT_MESSAGE" value="cutting back things I don't need" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -438,17 +448,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ingredients_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile.dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/start.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
